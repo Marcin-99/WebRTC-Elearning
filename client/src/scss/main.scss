@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: rgb(50, 41, 54);
+  }
+  
+#root {
+    display: flex;
+}
+  
+@import 'components/Navbar';
+@import 'components/content';
+
+@import 'components/ChangingContent/Game';
+@import 'components/ChangingContent/Stats';
+@import 'components/ChangingContent/Tutorial';
+
+@import 'components/VideoChatApplication/CreateRoom';
+@import 'components/VideoChatApplication/TextChat';
+@import 'components/VideoChatApplication/Video';
+@import 'components/VideoChatApplication/VideoRoom';
+  

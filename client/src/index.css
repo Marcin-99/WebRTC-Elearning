@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(50, 41, 54);
+}
+
+#root {
+  display: flex;
+}
+
+#videoChatSection {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 14vw;
+  border-right: solid rgb(37, 36, 37) 1px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#navBar {
+  height: 60px;
+  list-style: none;
+  font-weight: bold;
+  border-bottom: solid rgb(37, 36, 37) 1px;
+}
+
+#navBar li {
+  float: right;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#navBar li a {
+  text-decoration: none;
+  color: white;
+  padding: 4px 10px 4px 10px;
+  border-radius: 6px;
+}
+
+#navBar li a:hover {
+  color: pink;
+  transition: 0.5s;
+}
+
+#navBar li a.active {
+  background-color: pink;
+  color: rgb(50, 41, 54);
+}
+
+#changingContent {
+  height: 100%;
+  width: 100%;
+  color: yellow;
+}
+
+.video {
+  width: 100%;
+  border-bottom: solid pink 1px;
+}
+
+#chatTitle {
+  text-align: center;
+  color: pink;
+}
+
+#textChat {
+  width: 100%;
+  height: 100vh;
+  background-color: #212529;
+}
+
+#textChatInput {
+  position: absolute; 
+  bottom: 16px;
+  height: 20px;
+  text-align: center;
+  border: none;
+  background-color: transparent;
+  font-size: 10px;
+  width: 11.9vw;
+}
+
+#textChatInput:focus {
+  color: white;
+}
+
+#welcomeSection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 36vh;
+}
+
+.welcomeButton {
+  border: solid white 1px;
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  color: rgb(206, 165, 223);
+  background: rgb(50, 41, 54);
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcomeButton:hover {
+  border: solid rgb(206, 165, 223) 1px;
+  color: white;
+  transition: .5s;
+}
+
+.welcomeLabel {
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#usernameInput {
+  border: solid white 1px;
+  width: 160px;
+  height: 30px;
+  border-radius: 10px;
+  color: rgb(206, 165, 223);
+  background: rgb(50, 41, 54);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+#usernameInput:focus {
+  color: white;
+}
+
+#gameCanvas {
+  width: 100%;
+  height: 100%;
+  margin-top: -16px;
+}
+
+.message {
+  list-style: none;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+}
+
+.textUsername {
+  font-size: 8px;
+  color: #738aa1;
+}

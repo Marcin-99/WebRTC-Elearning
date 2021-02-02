@@ -1,0 +1,33 @@
+#navBar {
+    height: 60px;
+    list-style: none;
+    font-weight: bold;
+    border-bottom: solid rgb(37, 36, 37) 1px;
+}
+  
+#navBar li {
+    float: right;
+    display: inline-block;
+    margin-right: 20px;
+}
+  
+#navBar li a {
+    text-decoration: none;
+    color: white;
+    padding: 4px 10px 4px 10px;
+    border-radius: 6px;
+}
+  
+#navBar li a:hover {
+    color: pink;
+    transition: 0.5s;
+}
+  
+#navBar li a.active {
+    background-color: pink;
+    color: rgb(50, 41, 54);
+}
+
+#navUsername {
+    color: rgb(168, 160, 168);
+}
